@@ -1,0 +1,37 @@
+version: phase2.1
+core_question: "Can observable participant behavior, market state, and cross-venue activity reveal information before prices fully incorporate it?"
+families:
+  participant_information_advantage:
+    priority_dimensions: [economic_plausibility, data_availability, data_uniqueness, sample_size, expected_persistence, execution_feasibility, research_cost, crowdedness_risk]
+    hypotheses: [H003]
+    status: BLOCKED_BY_DATA
+  event_response:
+    priority_dimensions: [economic_plausibility, data_availability, data_uniqueness, sample_size, expected_persistence, execution_feasibility, research_cost, crowdedness_risk]
+    hypotheses: [H001]
+    status: EXPLORATORY
+  information_transmission:
+    priority_dimensions: [economic_plausibility, data_availability, data_uniqueness, sample_size, expected_persistence, execution_feasibility, research_cost, crowdedness_risk]
+    hypotheses: [H002]
+    status: EXPLORATORY
+  market_state_dependence:
+    priority_dimensions: [economic_plausibility, data_availability, data_uniqueness, sample_size, expected_persistence, execution_feasibility, research_cost, crowdedness_risk]
+    hypotheses: [H004]
+    status: EXPLORATORY
+  relative_value_price_discovery:
+    priority_dimensions: [economic_plausibility, data_availability, data_uniqueness, sample_size, expected_persistence, execution_feasibility, research_cost, crowdedness_risk]
+    hypotheses: [H005]
+    status: BLOCKED_BY_DATA
+  network_diffusion:
+    priority_dimensions: [economic_plausibility, data_availability, data_uniqueness, sample_size, expected_persistence, execution_feasibility, research_cost, crowdedness_risk]
+    hypotheses: [H006]
+    status: BLOCKED_BY_DATA
+  factor_baseline:
+    priority_dimensions: [economic_plausibility, data_availability, data_uniqueness, sample_size, expected_persistence, execution_feasibility, research_cost, crowdedness_risk]
+    hypotheses: [H007]
+    status: EXPLORATORY
+stopping_rules:
+  max_thresholds: 4
+  max_horizons: 3
+  max_model_variants: 2
+  reject_if_repeated_oos_failures: 2
+  no_threshold_selection_after_results: true
