@@ -1,0 +1,46 @@
+[
+  {
+    "check": "canonical_dim_asset",
+    "status": "PASS"
+  },
+  {
+    "check": "canonical_fact_token_market_state",
+    "status": "PASS"
+  },
+  {
+    "check": "artifact_research_agenda",
+    "status": "PASS"
+  },
+  {
+    "check": "artifact_hypothesis_results",
+    "status": "PASS"
+  },
+  {
+    "check": "artifact_experiment_registry",
+    "status": "PASS"
+  },
+  {
+    "check": "artifact_falsification_results",
+    "status": "PASS"
+  },
+  {
+    "check": "artifact_research_coverage",
+    "status": "PASS"
+  },
+  {
+    "check": "artifact_state_results",
+    "status": "PASS"
+  },
+  {
+    "check": "artifact_relative_value_results",
+    "status": "PASS"
+  },
+  {
+    "check": "artifact_network_results",
+    "status": "PASS"
+  },
+  {
+    "check": "artifact_API_RUN_STATS",
+    "status": "PASS"
+  }
+]

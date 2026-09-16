@@ -1,0 +1,30 @@
+{
+  "phase": "IV.1/V",
+  "run_timestamp": "2026-09-16T15:26:33.959055+00:00",
+  "read_only": true,
+  "write_endpoints_called": false,
+  "credentials_printed": false,
+  "code_commit": null,
+  "data_cutoff": "2026-09-16T15:26:33.959309+00:00",
+  "historical_depth": {
+    "tokens": 20,
+    "pages": 111,
+    "raw_trades": 9100,
+    "dedup_trades": 9099,
+    "output": "/Users/vanirli/Desktop/加密市场套利/onchain-alpha-atlas/artifacts/TOKEN_TRADE_HISTORY_DEPTH.parquet"
+  },
+  "report": {
+    "report": "/Users/vanirli/Desktop/加密市场套利/onchain-alpha-atlas/reports/ONCHAIN_RESEARCH_REPORT.md",
+    "trade_rows": 9299,
+    "micro_rows": 9299,
+    "episodes": 3099,
+    "fdr_status": "NOT_APPLIED"
+  },
+  "tests": {
+    "command": ".venv/bin/pytest -q",
+    "passed": 62,
+    "failed": 0
+  },
+  "superseded_results": "artifacts/phase4_legacy_multiple_testing.parquet",
+  "next_data_source": "continuous token trades, pool reserves/depth, repeated participant snapshots"
+}

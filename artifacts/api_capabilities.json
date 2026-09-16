@@ -1,0 +1,687 @@
+{
+  "generated_at": "2026-09-16T13:32:28.476567+00:00",
+  "source": "real_api",
+  "read_only": true,
+  "official_catalog_url": "https://developers.binance.com/en/docs/catalog",
+  "endpoints": [
+    {
+      "endpoint": "/api/v1/dex/market/token/hot-token",
+      "method": "GET",
+      "chain": "1",
+      "status": "supported",
+      "probe_status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "http_status": 200,
+      "business_code": 0,
+      "required_params": [
+        "binanceChainId",
+        "rankBy",
+        "rankingTimeFrame",
+        "pageId",
+        "size"
+      ],
+      "pagination": {
+        "pageId": "observed",
+        "size": "observed"
+      },
+      "fields": [
+        "items",
+        "page"
+      ],
+      "latency_ms": 3945.9421660285443,
+      "rate_limit_headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/token/hot-token",
+      "method": "GET",
+      "chain": "56",
+      "status": "supported",
+      "probe_status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "http_status": 200,
+      "business_code": 0,
+      "required_params": [
+        "binanceChainId",
+        "rankBy",
+        "rankingTimeFrame",
+        "pageId",
+        "size"
+      ],
+      "pagination": {
+        "pageId": "observed",
+        "size": "observed"
+      },
+      "fields": [
+        "items",
+        "page"
+      ],
+      "latency_ms": 1130.9010419645347,
+      "rate_limit_headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/token/hot-token",
+      "method": "GET",
+      "chain": "8453",
+      "status": "supported",
+      "probe_status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "http_status": 200,
+      "business_code": 0,
+      "required_params": [
+        "binanceChainId",
+        "rankBy",
+        "rankingTimeFrame",
+        "pageId",
+        "size"
+      ],
+      "pagination": {
+        "pageId": "observed",
+        "size": "observed"
+      },
+      "fields": [
+        "items",
+        "page"
+      ],
+      "latency_ms": 488.21645899442956,
+      "rate_limit_headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/token/hot-token",
+      "method": "GET",
+      "chain": "CT_501",
+      "status": "supported",
+      "probe_status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "http_status": 200,
+      "business_code": 0,
+      "required_params": [
+        "binanceChainId",
+        "rankBy",
+        "rankingTimeFrame",
+        "pageId",
+        "size"
+      ],
+      "pagination": {
+        "pageId": "observed",
+        "size": "observed"
+      },
+      "fields": [
+        "items",
+        "page"
+      ],
+      "latency_ms": 485.9896249836311,
+      "rate_limit_headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/price-info",
+      "method": "POST",
+      "chain": "1",
+      "status": "supported",
+      "probe_status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "http_status": 200,
+      "business_code": 0,
+      "required_params": [
+        "body"
+      ],
+      "pagination": "unknown",
+      "fields": [
+        "binanceChainId",
+        "bnBuyTxs1H",
+        "bnBuyTxs24H",
+        "bnBuyTxs4H",
+        "bnBuyTxs5M",
+        "bnBuyVolume1H",
+        "bnBuyVolume24H",
+        "bnBuyVolume4H",
+        "bnBuyVolume5M",
+        "bnSellTxs1H",
+        "bnSellTxs24H",
+        "bnSellTxs4H",
+        "bnSellTxs5M",
+        "bnSellVolume1H",
+        "bnSellVolume24H",
+        "bnSellVolume4H",
+        "bnSellVolume5M",
+        "bnTxs1H",
+        "bnTxs24H",
+        "bnTxs4H",
+        "bnTxs5M",
+        "bnVolume1H",
+        "bnVolume24H",
+        "bnVolume4H",
+        "bnVolume5M",
+        "buyTxs1H",
+        "buyTxs24H",
+        "buyTxs4H",
+        "buyTxs5M",
+        "buyVolume1H",
+        "buyVolume24H",
+        "buyVolume4H",
+        "buyVolume5M",
+        "circSupply",
+        "holders",
+        "liquidity",
+        "marketCap",
+        "maxPrice",
+        "minPrice",
+        "price",
+        "priceChange1H",
+        "priceChange24H",
+        "priceChange4H",
+        "priceChange5M",
+        "sellTxs1H",
+        "sellTxs24H",
+        "sellTxs4H",
+        "sellTxs5M",
+        "sellVolume1H",
+        "sellVolume24H",
+        "sellVolume4H",
+        "sellVolume5M",
+        "time",
+        "tokenContractAddress",
+        "txs1H",
+        "txs24H",
+        "txs4H",
+        "txs5M",
+        "volume1H",
+        "volume24H",
+        "volume4H",
+        "volume5M"
+      ],
+      "latency_ms": 426.2750410125591,
+      "rate_limit_headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "method": "GET",
+      "chain": "1",
+      "status": "supported",
+      "probe_status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "http_status": 200,
+      "business_code": 0,
+      "required_params": [
+        "binanceChainId",
+        "tokenContractAddress",
+        "bar",
+        "limit"
+      ],
+      "pagination": "observed",
+      "fields": [
+        "open",
+        "high",
+        "low",
+        "close",
+        "volume",
+        "time",
+        "tx_count"
+      ],
+      "latency_ms": 1157.5252499897033,
+      "rate_limit_headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/token/advanced-info",
+      "method": "GET",
+      "chain": "1",
+      "status": "supported",
+      "probe_status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "http_status": 200,
+      "business_code": 0,
+      "required_params": [
+        "binanceChainId",
+        "tokenContractAddress"
+      ],
+      "pagination": "unknown",
+      "fields": [
+        "binanceChainId",
+        "bnHolderCount",
+        "bnTraderCount7D",
+        "bundlerHoldingPercent",
+        "createTime",
+        "creatorAddress",
+        "devCreatedTokenCount",
+        "devHoldingPercent",
+        "devMigratedTokenCount",
+        "devMigratedTokenPercent",
+        "freshWalletHoldingPercent",
+        "holders",
+        "insiderHoldingPercent",
+        "isInternal",
+        "kolHoldingPercent",
+        "proHoldingPercent",
+        "progress",
+        "protocolId",
+        "smartMoneyHoldingPercent",
+        "sniperHoldingPercent",
+        "tokenContractAddress",
+        "tokenTags",
+        "top10HoldingPercent"
+      ],
+      "latency_ms": 1293.8957079895772,
+      "rate_limit_headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/token/top-liquidity",
+      "method": "GET",
+      "chain": "1",
+      "status": "supported",
+      "probe_status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "http_status": 200,
+      "business_code": 0,
+      "required_params": [
+        "binanceChainId",
+        "tokenContractAddress"
+      ],
+      "pagination": "unknown",
+      "fields": [
+        "liquidityAmount",
+        "liquidityUsd",
+        "pool",
+        "poolAddress",
+        "protocolLogoUrl",
+        "protocolName"
+      ],
+      "latency_ms": 361.4578749984503,
+      "rate_limit_headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/trades",
+      "method": "GET",
+      "chain": "1",
+      "status": "supported",
+      "probe_status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "http_status": 200,
+      "business_code": 0,
+      "required_params": [
+        "binanceChainId",
+        "tokenContractAddress",
+        "limit"
+      ],
+      "pagination": "observed",
+      "fields": [
+        "cursor",
+        "trades"
+      ],
+      "latency_ms": 393.2265829644166,
+      "rate_limit_headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      }
+    }
+  ],
+  "unsupported_or_unknown": {},
+  "capability_matrix": {
+    "market": [
+      "/api/v1/dex/market/price-info",
+      "/api/v1/dex/market/candles"
+    ],
+    "liquidity": [
+      "/api/v1/dex/market/token/top-liquidity"
+    ],
+    "holder": [
+      "/api/v1/dex/market/token/advanced-info: holders, bnHolderCount, top10HoldingPercent, freshWalletHoldingPercent, insiderHoldingPercent"
+    ],
+    "wallet": [
+      "unknown: no project hint or safe probe"
+    ],
+    "ranking": [
+      "/api/v1/dex/market/token/hot-token"
+    ],
+    "smart_money": [
+      "/api/v1/dex/market/token/advanced-info: smartMoneyHoldingPercent (crowding/holding proxy only; no forward signal outcome confirmed)"
+    ],
+    "audit": [
+      "/api/v1/dex/market/token/advanced-info"
+    ],
+    "event_meme": [
+      "unknown: no event/meme lifecycle endpoint confirmed"
+    ],
+    "ohlcv_intervals": [
+      "1h probe attempted"
+    ]
+  },
+  "endpoint_inventory": [
+    {
+      "capability": "/api/v1/dex/market/token/hot-token",
+      "candidate_endpoint": "/api/v1/dex/market/token/hot-token",
+      "method": "GET",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "http_status": 200,
+      "business_code": 0,
+      "chain": "1",
+      "reason": "Safe read-only probe using current key and documented project API contract.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "/api/v1/dex/market/token/hot-token",
+      "candidate_endpoint": "/api/v1/dex/market/token/hot-token",
+      "method": "GET",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "http_status": 200,
+      "business_code": 0,
+      "chain": "56",
+      "reason": "Safe read-only probe using current key and documented project API contract.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "/api/v1/dex/market/token/hot-token",
+      "candidate_endpoint": "/api/v1/dex/market/token/hot-token",
+      "method": "GET",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "http_status": 200,
+      "business_code": 0,
+      "chain": "8453",
+      "reason": "Safe read-only probe using current key and documented project API contract.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "/api/v1/dex/market/token/hot-token",
+      "candidate_endpoint": "/api/v1/dex/market/token/hot-token",
+      "method": "GET",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "http_status": 200,
+      "business_code": 0,
+      "chain": "CT_501",
+      "reason": "Safe read-only probe using current key and documented project API contract.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "/api/v1/dex/market/price-info",
+      "candidate_endpoint": "/api/v1/dex/market/price-info",
+      "method": "POST",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "http_status": 200,
+      "business_code": 0,
+      "chain": "1",
+      "reason": "Safe read-only probe using current key and documented project API contract.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "/api/v1/dex/market/candles",
+      "candidate_endpoint": "/api/v1/dex/market/candles",
+      "method": "GET",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "http_status": 200,
+      "business_code": 0,
+      "chain": "1",
+      "reason": "Safe read-only probe using current key and documented project API contract.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "/api/v1/dex/market/token/advanced-info",
+      "candidate_endpoint": "/api/v1/dex/market/token/advanced-info",
+      "method": "GET",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "http_status": 200,
+      "business_code": 0,
+      "chain": "1",
+      "reason": "Safe read-only probe using current key and documented project API contract.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "/api/v1/dex/market/token/top-liquidity",
+      "candidate_endpoint": "/api/v1/dex/market/token/top-liquidity",
+      "method": "GET",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "http_status": 200,
+      "business_code": 0,
+      "chain": "1",
+      "reason": "Safe read-only probe using current key and documented project API contract.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "/api/v1/dex/market/trades",
+      "candidate_endpoint": "/api/v1/dex/market/trades",
+      "method": "GET",
+      "documentation_status": "PROJECT_API_CONTRACT",
+      "status": "ACCESSIBLE_WITH_CURRENT_KEY",
+      "http_status": 200,
+      "business_code": 0,
+      "chain": "1",
+      "reason": "Safe read-only probe using current key and documented project API contract.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "holders ranking",
+      "candidate_endpoint": "",
+      "method": "",
+      "documentation_status": "NOT_FOUND_IN_OFFICIAL_PUBLIC_CATALOG",
+      "status": "NOT_PROBED",
+      "http_status": "",
+      "business_code": "",
+      "chain": "",
+      "reason": "The official public catalog exposes product families but no Web3 analytics path for this capability; no speculative endpoint was called.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "top traders",
+      "candidate_endpoint": "",
+      "method": "",
+      "documentation_status": "NOT_FOUND_IN_OFFICIAL_PUBLIC_CATALOG",
+      "status": "NOT_PROBED",
+      "http_status": "",
+      "business_code": "",
+      "chain": "",
+      "reason": "The official public catalog exposes product families but no Web3 analytics path for this capability; no speculative endpoint was called.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "token trades",
+      "candidate_endpoint": "",
+      "method": "",
+      "documentation_status": "NOT_FOUND_IN_OFFICIAL_PUBLIC_CATALOG",
+      "status": "NOT_PROBED",
+      "http_status": "",
+      "business_code": "",
+      "chain": "",
+      "reason": "The official public catalog exposes product families but no Web3 analytics path for this capability; no speculative endpoint was called.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "address portfolio overview",
+      "candidate_endpoint": "",
+      "method": "",
+      "documentation_status": "NOT_FOUND_IN_OFFICIAL_PUBLIC_CATALOG",
+      "status": "NOT_PROBED",
+      "http_status": "",
+      "business_code": "",
+      "chain": "",
+      "reason": "The official public catalog exposes product families but no Web3 analytics path for this capability; no speculative endpoint was called.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "address recent PnL",
+      "candidate_endpoint": "",
+      "method": "",
+      "documentation_status": "NOT_FOUND_IN_OFFICIAL_PUBLIC_CATALOG",
+      "status": "NOT_PROBED",
+      "http_status": "",
+      "business_code": "",
+      "chain": "",
+      "reason": "The official public catalog exposes product families but no Web3 analytics path for this capability; no speculative endpoint was called.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "address token PnL",
+      "candidate_endpoint": "",
+      "method": "",
+      "documentation_status": "NOT_FOUND_IN_OFFICIAL_PUBLIC_CATALOG",
+      "status": "NOT_PROBED",
+      "http_status": "",
+      "business_code": "",
+      "chain": "",
+      "reason": "The official public catalog exposes product families but no Web3 analytics path for this capability; no speculative endpoint was called.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "address DEX trade history",
+      "candidate_endpoint": "",
+      "method": "",
+      "documentation_status": "NOT_FOUND_IN_OFFICIAL_PUBLIC_CATALOG",
+      "status": "NOT_PROBED",
+      "http_status": "",
+      "business_code": "",
+      "chain": "",
+      "reason": "The official public catalog exposes product families but no Web3 analytics path for this capability; no speculative endpoint was called.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "leaderboard",
+      "candidate_endpoint": "",
+      "method": "",
+      "documentation_status": "NOT_FOUND_IN_OFFICIAL_PUBLIC_CATALOG",
+      "status": "NOT_PROBED",
+      "http_status": "",
+      "business_code": "",
+      "chain": "",
+      "reason": "The official public catalog exposes product families but no Web3 analytics path for this capability; no speculative endpoint was called.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "tracked trades",
+      "candidate_endpoint": "",
+      "method": "",
+      "documentation_status": "NOT_FOUND_IN_OFFICIAL_PUBLIC_CATALOG",
+      "status": "NOT_PROBED",
+      "http_status": "",
+      "business_code": "",
+      "chain": "",
+      "reason": "The official public catalog exposes product families but no Web3 analytics path for this capability; no speculative endpoint was called.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "address balances",
+      "candidate_endpoint": "",
+      "method": "",
+      "documentation_status": "NOT_FOUND_IN_OFFICIAL_PUBLIC_CATALOG",
+      "status": "NOT_PROBED",
+      "http_status": "",
+      "business_code": "",
+      "chain": "",
+      "reason": "The official public catalog exposes product families but no Web3 analytics path for this capability; no speculative endpoint was called.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    },
+    {
+      "capability": "transactions by address",
+      "candidate_endpoint": "",
+      "method": "",
+      "documentation_status": "NOT_FOUND_IN_OFFICIAL_PUBLIC_CATALOG",
+      "status": "NOT_PROBED",
+      "http_status": "",
+      "business_code": "",
+      "chain": "",
+      "reason": "The official public catalog exposes product families but no Web3 analytics path for this capability; no speculative endpoint was called.",
+      "source": "https://developers.binance.com/en/docs/catalog"
+    }
+  ],
+  "client_metrics": {
+    "requests": 9,
+    "success": 9,
+    "errors": 0,
+    "429": 0,
+    "5xx": 0,
+    "latencies_ms": [
+      3945.9421660285443,
+      1130.9010419645347,
+      488.21645899442956,
+      485.9896249836311,
+      426.2750410125591,
+      1157.5252499897033,
+      1293.8957079895772,
+      361.4578749984503,
+      393.2265829644166
+    ],
+    "rate_limit_headers": [
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      }
+    ]
+  }
+}

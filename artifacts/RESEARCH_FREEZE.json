@@ -1,0 +1,115 @@
+{
+  "freeze_version": "PHASE5_RESEARCH_FREEZE_V1",
+  "created_at": "2026-09-16T16:52:41.616256+00:00",
+  "data_cutoff": "2026-09-16T15:17:42+00:00",
+  "code_hash": "3b574dbdf961b55e70e1084a28e0802a44391557744b386311a2c1f85be24e0a",
+  "code_commit": null,
+  "universe": {
+    "assets": 19,
+    "chains": 4
+  },
+  "hypotheses": [
+    {
+      "hypothesis_id": "RQ1",
+      "question": "DEX trade information content",
+      "economic_mechanism": "A signed DEX trade contains short-horizon directional information.",
+      "research_family": "R1",
+      "forward_confirmation": "REQUIRED"
+    },
+    {
+      "hypothesis_id": "RQ2",
+      "question": "Trade size and response",
+      "economic_mechanism": "Larger USD trades have stronger signed future response.",
+      "research_family": "R2",
+      "forward_confirmation": "REQUIRED"
+    },
+    {
+      "hypothesis_id": "RQ3",
+      "question": "Flow imbalance",
+      "economic_mechanism": "Buy/sell imbalance predicts subsequent clock-time return.",
+      "research_family": "R3",
+      "forward_confirmation": "REQUIRED"
+    },
+    {
+      "hypothesis_id": "RQ4",
+      "question": "Flow continuation versus reversal",
+      "economic_mechanism": "The response curve distinguishes transient pressure from persistent information.",
+      "research_family": "R4",
+      "forward_confirmation": "REQUIRED"
+    },
+    {
+      "hypothesis_id": "RQ5",
+      "question": "Smart Money label validation",
+      "economic_mechanism": "The external Smart Money label has incremental information content versus controls.",
+      "research_family": "participant",
+      "forward_confirmation": "REQUIRED"
+    },
+    {
+      "hypothesis_id": "RQ6",
+      "question": "Whale Holder label validation",
+      "economic_mechanism": "The external Whale Holder label differs from unlabelled trades.",
+      "research_family": "participant",
+      "forward_confirmation": "REQUIRED"
+    },
+    {
+      "hypothesis_id": "RQ7",
+      "question": "Bundler label validation",
+      "economic_mechanism": "Bundler-labelled trades have a distinct response profile.",
+      "research_family": "participant",
+      "forward_confirmation": "REQUIRED"
+    },
+    {
+      "hypothesis_id": "RQ8",
+      "question": "High-activity wallets",
+      "economic_mechanism": "Repeated wallets have different information content from one-off wallets.",
+      "research_family": "wallet",
+      "forward_confirmation": "REQUIRED"
+    },
+    {
+      "hypothesis_id": "RQ9",
+      "question": "Wallet persistence",
+      "economic_mechanism": "Past wallet response predicts later response under chronological split.",
+      "research_family": "wallet",
+      "forward_confirmation": "REQUIRED"
+    },
+    {
+      "hypothesis_id": "RQ10",
+      "question": "Adoption and diffusion",
+      "economic_mechanism": "New-wallet participation changes subsequent return.",
+      "research_family": "crowding",
+      "forward_confirmation": "REQUIRED"
+    },
+    {
+      "hypothesis_id": "RQ11",
+      "question": "Participant concentration and crowding",
+      "economic_mechanism": "Higher buyer concentration is associated with reversal/crowding.",
+      "research_family": "crowding",
+      "forward_confirmation": "REQUIRED"
+    },
+    {
+      "hypothesis_id": "RQ12",
+      "question": "Cross-token robustness",
+      "economic_mechanism": "Trade-response effects are not driven by one or two tokens.",
+      "research_family": "robustness",
+      "forward_confirmation": "REQUIRED"
+    }
+  ],
+  "fixed_variants": {
+    "response_horizons_minutes": [
+      1,
+      5,
+      15,
+      60
+    ],
+    "size_quantiles": 5,
+    "flow_windows_minutes": [
+      1,
+      5,
+      15
+    ],
+    "inference": "horizon-specific episode clusters plus cluster bootstrap CI; BH within research family",
+    "seed": 42
+  },
+  "no_trade_execution": true,
+  "confirmation_rule": "future append-only data is confirmation; historical data remains discovery"
+}

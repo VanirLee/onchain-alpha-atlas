@@ -1,0 +1,31 @@
+{
+  "status": "COMPLETED",
+  "run_timestamp": "2026-09-16T16:52:41.663648+00:00",
+  "code_hash": "3b574dbdf961b55e70e1084a28e0802a44391557744b386311a2c1f85be24e0a",
+  "code_commit": null,
+  "data_cutoff": "2026-09-16T15:17:42+00:00",
+  "read_only": true,
+  "write_endpoints_called": false,
+  "hypotheses": 12,
+  "registry_rows": 12,
+  "r1_rows": 4,
+  "r2_rows": 28,
+  "r3_rows": 5052,
+  "participant_rows": 7,
+  "wallet_rows": 1,
+  "crowding_rows": 327,
+  "loto_rows": 70,
+  "per_token_rows": 88,
+  "report": "/Users/vanirli/Desktop/加密市场套利/onchain-alpha-atlas/reports/ONCHAIN_QUANT_RESEARCH_REPORT.md",
+  "artifacts": [
+    "artifacts/PRICE_SEMANTICS_AUDIT.parquet",
+    "artifacts/PRICE_OUTLIER_ROOT_CAUSE.parquet",
+    "artifacts/response_curve_results.parquet",
+    "artifacts/trade_size_results.parquet",
+    "artifacts/flow_response_results.parquet",
+    "artifacts/per_token_effects.parquet",
+    "artifacts/phase5_experiment_registry.parquet",
+    "artifacts/RESEARCH_SCORECARD.parquet",
+    "artifacts/RESEARCH_FREEZE.json"
+  ]
+}

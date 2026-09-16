@@ -1,0 +1,849 @@
+{
+  "run_timestamp": "2026-09-16T07:36:17.277888+00:00",
+  "code_commit": null,
+  "config_hash": "5ca04e25d6910cb50e778caf9666f09b5e45b409a68b46f55d9fd11bbe31d0c2",
+  "data_cutoff": "2026-09-16T07:36:17.312999+00:00",
+  "universe_size": 112,
+  "factor_list": [
+    "momentum_1h",
+    "momentum_4h",
+    "momentum_24h",
+    "momentum_7d",
+    "reversal_1h",
+    "realized_vol_24h",
+    "volume_momentum",
+    "volume_surprise",
+    "liquidity_mcap",
+    "turnover",
+    "volume_liquidity",
+    "amihud_illiquidity",
+    "liquidity_growth",
+    "liquidity_shock",
+    "buy_sell_imbalance",
+    "smart_money_flow_intensity",
+    "smart_money_crowding",
+    "signal_count",
+    "signal_breadth",
+    "holder_growth",
+    "holder_acceleration",
+    "holder_concentration",
+    "holder_liquidity_interaction",
+    "rank_change",
+    "rank_momentum",
+    "attention_shock",
+    "token_age_days",
+    "audit_score",
+    "chain_volume_breadth",
+    "market_vol_regime"
+  ],
+  "factor_count": 30,
+  "random_seed": 42,
+  "collection_source": "real_api",
+  "collection": {
+    "status": "completed",
+    "source": "real_api",
+    "universe": 112,
+    "market_rows": 112,
+    "candle_rows": 9967,
+    "requests": 120,
+    "client_metrics": {
+      "requests": 120,
+      "success": 120,
+      "errors": 0,
+      "429": 0,
+      "5xx": 0,
+      "latencies_ms": [
+        3435.2836250327528,
+        574.6760000474751,
+        516.371458012145,
+        1146.6703749611042,
+        874.4397080154158,
+        363.5248330538161,
+        1227.3133750422858,
+        449.5619999943301,
+        701.1302919709124,
+        1175.9077919996344,
+        520.0181669788435,
+        451.8564169993624,
+        497.17220797901973,
+        553.6311250180006,
+        469.6723750093952,
+        476.87700000824407,
+        443.9697089837864,
+        839.2300419509411,
+        1153.0860829516314,
+        1326.722957950551,
+        769.2156250122935,
+        582.8373749973252,
+        492.66624997835606,
+        518.5061250231229,
+        554.0354590048082,
+        487.90504201315343,
+        528.5065410425887,
+        620.2121669775806,
+        679.1385420365259,
+        694.3702080170624,
+        663.7484999955632,
+        532.1771249873564,
+        1310.3314160252921,
+        2684.81604201952,
+        1925.6850840174593,
+        3130.819750018418,
+        2266.731208015699,
+        782.2812090162188,
+        733.4197080344893,
+        1732.3514170129783,
+        852.8046669671312,
+        861.1376250046305,
+        962.628917011898,
+        1282.1277079638094,
+        758.2560420269147,
+        708.1118749920279,
+        734.6401669783518,
+        699.7641249909066,
+        767.3034580075182,
+        1024.7614999534562,
+        590.5660829739645,
+        1326.8626250210218,
+        2106.9662920199335,
+        1406.9916669977829,
+        586.5622910205275,
+        674.7359589789994,
+        676.2734999647364,
+        1465.2515000198036,
+        650.9601249708794,
+        667.5884170108475,
+        1223.900875018444,
+        790.9362909849733,
+        765.0531249819323,
+        676.22470803326,
+        1658.2287079654634,
+        4528.542541025672,
+        3690.3270409675315,
+        861.2506249919534,
+        844.2422079970129,
+        867.7539170021191,
+        764.6350839640945,
+        611.0742089804262,
+        769.3677500355989,
+        1253.8072500028647,
+        2078.0709169921465,
+        711.3120410358533,
+        637.3261249973439,
+        527.975749981124,
+        548.9017079817131,
+        696.3840409880504,
+        765.0506250211038,
+        456.850582966581,
+        951.2455830117688,
+        498.0680829612538,
+        1743.5739169595763,
+        447.54908297909424,
+        623.5997499898076,
+        500.7767499773763,
+        712.6346250297502,
+        499.27129194838926,
+        578.2522909576073,
+        683.7434580083936,
+        1167.5569170038216,
+        418.43525000149384,
+        628.2787079690024,
+        360.43020902434364,
+        672.0060419756919,
+        507.2248749784194,
+        1044.379208004102,
+        823.4956249943934,
+        650.9489170275629,
+        516.8450420023873,
+        339.6981669939123,
+        307.0680000237189,
+        360.37633300293237,
+        1220.1435839524493,
+        732.2564159985632,
+        346.39416699064896,
+        281.83658298803493,
+        595.8163329632953,
+        794.3625419866294,
+        351.4037919812836,
+        546.8762499513105,
+        995.9279999602586,
+        505.0610409816727,
+        589.9044999969192,
+        380.9942500083707,
+        1012.1991250198334,
+        663.9254170004278,
+        826.6939999884926
+      ],
+      "rate_limit_headers": [
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2997",
+          "x-oc-used-weight": "3"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2997",
+          "x-oc-used-weight": "3"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2997",
+          "x-oc-used-weight": "3"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2997",
+          "x-oc-used-weight": "3"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2997",
+          "x-oc-used-weight": "3"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2997",
+          "x-oc-used-weight": "3"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2996",
+          "x-oc-used-weight": "4"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2999",
+          "x-oc-used-weight": "1"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2997",
+          "x-oc-used-weight": "3"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2997",
+          "x-oc-used-weight": "3"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2997",
+          "x-oc-used-weight": "3"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2997",
+          "x-oc-used-weight": "3"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        },
+        {
+          "x-oc-ratelimit-limit": "3000",
+          "x-oc-ratelimit-remaining": "2998",
+          "x-oc-used-weight": "2"
+        }
+      ]
+    }
+  },
+  "read_only": true,
+  "write_endpoints_called": false,
+  "credentials_printed": false,
+  "code_hash": "e88325f9359c3a53bd98b28dea97b92ac49e25195dc15a6aa215d60414edaf35",
+  "research_recomputed_at": "2026-09-16T14:23:58.372456+00:00",
+  "results_provenance": {
+    "features": "onchain_alpha.features.core.build_factor_panel",
+    "labels": "onchain_alpha.labels.forward_returns.build_forward_labels",
+    "ic": "onchain_alpha.screening.ic.rank_ic",
+    "robustness": "onchain_alpha.stats.robustness",
+    "backtest": "onchain_alpha.backtest.engine.run_backtest",
+    "event_study": "onchain_alpha.research.event_study.engine.run_event_study",
+    "lead_lag": "onchain_alpha.research.lead_lag.engine.run_lead_lag",
+    "state_conditional": "onchain_alpha.research.state.conditional.run_state_conditional_event_study",
+    "wallet_skill": "onchain_alpha.entities.skill.engine.build_wallet_skill_history",
+    "network": "onchain_alpha.research.network.temporal.asof_graph_edges",
+    "phase2_inventory": "onchain_alpha.data.phase2",
+    "phase2_report": "onchain_alpha.reporting.phase2.build_phase2_report"
+  },
+  "ontology": {
+    "four_clocks": [
+      "event_time",
+      "observed_time",
+      "available_time",
+      "ingest_time"
+    ],
+    "asset_key": [
+      "chain",
+      "token_address"
+    ]
+  },
+  "hypothesis_ids": [
+    "H001",
+    "H002",
+    "H003",
+    "H004",
+    "H005",
+    "H006",
+    "H007"
+  ],
+  "phase2": {
+    "universe_version": "CURRENT-UNIVERSE-BACKFILL",
+    "event_threshold_grid": [
+      90,
+      95,
+      97.5,
+      99
+    ],
+    "research_families": [
+      "participant_information_advantage",
+      "event_response",
+      "information_transmission",
+      "market_state_dependence",
+      "relative_value_price_discovery",
+      "network_diffusion",
+      "factor_baseline"
+    ]
+  },
+  "phase3": {
+    "architecture": "FROZEN_DATA_FIRST_EXTENSION",
+    "local_catalog": "artifacts/LOCAL_DATA_CATALOG.parquet",
+    "identity_rows": 737,
+    "trade_rows": 341,
+    "paired_assets": 0,
+    "wallet_count": null,
+    "cross_venue_status": "INSUFFICIENT_CROSS_VENUE_PAIRING",
+    "write_endpoints_called": false
+  }
+}

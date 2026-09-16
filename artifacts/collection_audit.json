@@ -1,0 +1,2297 @@
+{
+  "source": "real_api",
+  "observed_at": "2026-09-16T07:34:28.145732+00:00",
+  "universe_count": 112,
+  "market_rows": 112,
+  "candle_rows": 9967,
+  "requests": [
+    {
+      "endpoint": "/api/v1/dex/market/token/hot-token",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 3435.2836250327528,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/token/hot-token",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 574.6760000474751,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/token/hot-token",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 516.371458012145,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/token/hot-token",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1146.6703749611042,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      }
+    },
+    {
+      "endpoint": "/api/v1/dex/market/price-info",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 874.4397080154158,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "count": 30
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 363.5248330538161,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x8881562783028f5c1bcb985d2283d5e170d88888"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1227.3133750422858,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x57b96d4af698605563a4653d882635da59bf11af"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 449.5619999943301,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x437cc33344a0b27a429f795ff6b469c72698b291"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 701.1302919709124,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x58d97b57bb95320f9a05dc918aef65434969c2b2"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1175.9077919996344,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x8ed97a637a790be1feff5e888d43629dc05408f6"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 520.0181669788435,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0xf34960d9d60be18cc1d5afc1a6f012a723a28811"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 451.8564169993624,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x812ba41e071c7b7fa4ebcfb62df5f45f6fa853ee"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 497.17220797901973,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xbaac2b4491727d78d2b78815144570b9f2fe8899"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 553.6311250180006,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x38e68a37e401f7271568cecaac63c6b1e19130b4"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 469.6723750093952,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      "token": "0xbdf43ecadc5cef51b7d1772f722e40596bc1788b"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 476.87700000824407,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x31c8eacbffdd875c74b94b077895bd78cf1e64a3"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 443.9697089837864,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      "token": "0xf0f9d895aca5c8678f706fb8216fa22957685a13"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 839.2300419509411,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      "token": "0xd34a99bc0f67ae1bbd63c660e6d0b0dd03e263b7"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1153.0860829516314,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x626e8036deb333b408be468f951bdb42433cbf18"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1326.722957950551,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x66fd8de541c0594b4dccdfc13bf3a390e50d3afd"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 769.2156250122935,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x0001a500a6b18995b03f44bb040a5ffc28e45cb0"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 582.8373749973252,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xc770eefad204b5180df6a14ee197d99d808ee52d"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 492.66624997835606,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x45e02bc2875a2914c4f585bbf92a6f28bc07cb70"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 518.5061250231229,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x52d904eff2605463c2f0b338d34abc9b7c3e3b08"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 554.0354590048082,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x25b4f5d4c314bcd5d7962734936c957b947cb7cf"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 487.90504201315343,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xe72b141df173b999ae7c1adcbf60cc9833ce56a8"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 528.5065410425887,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x4507cef57c46789ef8d1a19ea45f4216bae2b528"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 620.2121669775806,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x8390a1da07e376ef7add4be859ba74fb83aa02d5"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 679.1385420365259,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xac57de9c1a09fec648e93eb98875b212db0d460b"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 694.3702080170624,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xa2b4c0af19cc16a6cfacce81f192b024d625817d"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 663.7484999955632,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x4a220e6096b25eadb88358cb44068a3248254675"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 532.1771249873564,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x5026f006b85729a8b14553fae6af249ad16c9aab"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1310.3314160252921,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x14fee680690900ba0cccfc76ad70fd1b95d10e16"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 2684.81604201952,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x26e550ac11b26f78a04489d5f20f24e3559f7dd9"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "1",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1925.6850840174593,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0xfeac2eae96899709a43e252b6b92971d32f9c0f9"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/price-info",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 3130.819750018418,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "count": 29
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 2266.731208015699,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x000ae314e2a2172a039b26378814c252734f556a"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 782.2812090162188,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0xe054017a2f0ecfa294b08a74af319bce0b985a39"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 733.4197080344893,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1732.3514170129783,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xbeea1d618e533a387d941f58a7d4c9b7bd377777"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 852.8046669671312,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x500a02a20b0b0a3f3efccfc0559543f5743bd1c4"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 861.1376250046305,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x6ced5c6d3f913b48d59fa07abbfe9060c409087c"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 962.628917011898,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x66661c7229901f568f16bd1551b3ba826f83ce49"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1282.1277079638094,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x4581ddc7617a32bf1e97646adb0537f01423868d"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 758.2560420269147,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x0a8d6c86e1bce73fe4d0bd531e1a567306836ea5"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 708.1118749920279,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xba2ae424d960c26247dd6c32edc70b295c744c43"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 734.6401669783518,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x4c3bae7cb07712c9c2b27d488ce323af77d36b39"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 699.7641249909066,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x0a43fc31a73013089df59194872ecae4cae14444"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 767.3034580075182,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xcefbf00b3732fe91e46989037e4b2564a4fc7777"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1024.7614999534562,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x410a56541bd912f9b60943fcb344f1e3d6f09567"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 590.5660829739645,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x1c7cb7d5e12a813a0051cf930b55aabd2369b45e"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1326.8626250210218,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x4f84f15b4a15164234df3a23b14f82c53cdda0d2"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 2106.9662920199335,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0xdee89bd697071e15f1ceac5780b5d41af3ce032c"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1406.9916669977829,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x05ae9ac4878f18d9ae11f804079cfffd0844b455"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 586.5622910205275,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x595deaad1eb5476ff1e649fdb7efc36f1e4679cc"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 674.7359589789994,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x70f2eadf1ca1969ff42b0c78e9da519e8937cbaf"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 676.2734999647364,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x99991c6aabba5a096f24f250b73580f5179b9999"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1465.2515000198036,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x2d83990ba25064347d168a3b5e3337a684150999"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 650.9601249708794,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x87acfa3fd7a6e0d48677d070644d76905c2bdc00"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 667.5884170108475,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x81d3a238b02827f62b9f390f947d36d4a5bf89d2"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1223.900875018444,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x4fa7c69a7b69f8bc48233024d546bc299d6b03bf"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 790.9362909849733,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x9ea46e6cef7595e72e9bb30b4b3287c9fb85b889"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 765.0531249819323,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xcb5f86c253629989c79e0751e0147f91e281b4f1"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 676.22470803326,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x8105743e8a19c915a604d7d9e7aa3a060a4c2c32"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "56",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1658.2287079654634,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x9a79d9c9e521cb900d2584c74bb41997eb7bf49f"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/price-info",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 4528.542541025672,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "count": 30
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 3690.3270409675315,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x56ab53b77f07da3af732150e8aec4783eb5bba7d"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 861.2506249919534,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0xb095274743941e953c746f9c228da9c18bb6ec29"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 844.2422079970129,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x2dfd9edd7f8c6a27408cf564c01e6d94b9dfd04a"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 867.7539170021191,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x2c10931e2fcb90f34f138c9a23b7d24c7e348ecc"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 764.6350839640945,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xbbd27c575fb0e113219d610cc787b02eeff71d42"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 611.0742089804262,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xe908475f8beb7a138b0dc6eb5a05cb27068ffb9a"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 769.3677500355989,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x55f9c8992fc4abce5aca585bf8f18284a2379d4c"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1253.8072500028647,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x8185eaf46136a3f095c60facd97eca1bfc2f38f6"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 2078.0709169921465,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x1ea8deb921aa6015f4938010c848140b98108dd2"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 711.3120410358533,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0xaa6cccdce193698d33deb9ffd4be74eaa74c4898"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 637.3261249973439,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x85eac631c800af804476b140f87039f742c28ba3"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 527.975749981124,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xcef8db49e456f872e288e1c042f916e9ced7c781"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 548.9017079817131,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x454f8c3f1fc79a98363db6104a20ac59a02a3133"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 696.3840409880504,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x1b4617734c43f6159f3a70b7e06d883647512778"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 765.0506250211038,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xa6af0cea8fbc93e1eccc00f1fdd9a0bba251fee1"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 456.850582966581,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x885a590198e5f0947f4c92db815cf2a2147980b8"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 951.2455830117688,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x8c0d3adcf8ce094e1ae437557ec90a6374dc9bdd"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 498.0680829612538,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x42069babe14fb1802c5cb0f50bb9d2ad6fef55e2"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1743.5739169595763,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x23418de10d422ad71c9d5713a2b8991a9c586443"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 447.54908297909424,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0x5a7a2bf9ffae199f088b25837dcd7e115cf8e1bb"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 623.5997499898076,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x67a7ca081dc79b45fd1fa059cd3b8dcca779aba3"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 500.7767499773763,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x8e04643a8fabea33c8269223ba88125cc5235e01"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 712.6346250297502,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x578661e9a09eee6b2cd97d4ded1ccbae7b8516b9"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 499.27129194838926,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x27f6c8289550fce67f6b50bed1f519966afe5287"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 578.2522909576073,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xf25620f89d0e23a8ba7b11ab3235b66268794196"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 683.7434580083936,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0xa9fee7b2f54781a14c85a1b8815345aefbe1eb07"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1167.5569170038216,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x6f89bca4ea5931edfcb09786267b251dee752b07"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 418.43525000149384,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "0xb676f87a6e701f0de8de5ab91b56b66109766db1"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 628.2787079690024,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "0x70c8392de9b39a1e48d12a70af6ff4be25d6d0a2"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "8453",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 360.43020902434364,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      "token": "0xd4554bea546efa83c1e6b389ecac40ea999b3e78"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/price-info",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 672.0060419756919,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "count": 23
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 507.2248749784194,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "SPCXxcqXj6e5dJDVNovHN8744zkbhM2bYudU45BimGb"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1044.379208004102,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "CatEvkKVmK2fsiVJZ3EzEBuCW8bmNoHKxsXvbBggdebp"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 823.4956249943934,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "CARDSccUMFKoPRZxt5vt3ksUbxEFEcnZ3H2pd3dKxYjp"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 650.9489170275629,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "HcRLc9VDgjLeK154xDawfb1dmVJ98DoSqcwTHGqiDeJR"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 516.8450420023873,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "5dvXTZ5qwgafnHtwu3Ls3QrWx1U4LQsFeCuJgkk4QEC6"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 339.6981669939123,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "JGLw4v2fNcXF4ybtsvx5WWNce4qaryR36sQoZJLpump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 307.0680000237189,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      "token": "Dbjoctm25ARMHXvCzeJAvatEzgUPCK4V6Zz5uxHHpump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 360.37633300293237,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      "token": "GpYmLJzxHDFMpVZQ8yXJX1Lvt59FTwWxZaNhwPJtpump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1220.1435839524493,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2996",
+        "x-oc-used-weight": "4"
+      },
+      "token": "CTPoyCwkjMvoJwU4xvZZqoD8tiYk6yDchySiN5gGpump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 732.2564159985632,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      "token": "CbyTNf7UPzvewHh4Zp6umogM2RWahhmGRJWLJnPwpump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 346.39416699064896,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "AuY4vnuYA8Y5ra24ru6QArRky5urqz27dJqerq7G9ptG"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 281.83658298803493,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      "token": "TT6WBNHr8Y6syUH4yoPrKhpP1RZ3DkWDNnAWL52pump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 595.8163329632953,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      "token": "CFNRDaxFcvRwRSNnA5cHrCCr6AHhk9dNkHWpRUjNupFL"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 794.3625419866294,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      "token": "aEXwZerTRjt5tiALHXa6H1QBZxsTqnTC1g6mGtCpump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 351.4037919812836,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "wR4hyrbFoiF4BgrMGMDpz9GxshqYoaDkgRWcJJjpump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 546.8762499513105,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "6Tk3uHQpLDtd4Qob5fduLjfhXxAasWgvdo8hYeswxMiL"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 995.9279999602586,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      "token": "GLu3i1V8U37dUCVyCQBVoyvFusGKqLZvnPAkeVz5pump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 505.0610409816727,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "Fair3oKKbcrGjcka2tTYQdyS6sYnyyQqbCTTiNmE3WHK"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 589.9044999969192,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "DkPQvrx7CDYrL4HfHijz6GqZLYm7Pd4rm1kTiumLFwhS"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 380.9942500083707,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "hkYJiy1GgSoNhAXBcg1GmuhUZAkNtKraBLtNHF7pump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 1012.1991250198334,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "718ZMfrK21yczhpoJKSiLE8fzwp2GGpcdELyyQoGpump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 663.9254170004278,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "6ndss64a7Cmond9wGWLTBmkJPzQ7nCnFEEwVsPkCpump"
+    },
+    {
+      "endpoint": "/api/v1/dex/market/candles",
+      "chain": "CT_501",
+      "status": 200,
+      "business_code": 0,
+      "latency_ms": 826.6939999884926,
+      "headers": {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      "token": "PerPsCe2SJ7Q25CN4R5TTX4fmBdmknE2hQmqCt96fHL"
+    }
+  ],
+  "client_metrics": {
+    "requests": 120,
+    "success": 120,
+    "errors": 0,
+    "429": 0,
+    "5xx": 0,
+    "latencies_ms": [
+      3435.2836250327528,
+      574.6760000474751,
+      516.371458012145,
+      1146.6703749611042,
+      874.4397080154158,
+      363.5248330538161,
+      1227.3133750422858,
+      449.5619999943301,
+      701.1302919709124,
+      1175.9077919996344,
+      520.0181669788435,
+      451.8564169993624,
+      497.17220797901973,
+      553.6311250180006,
+      469.6723750093952,
+      476.87700000824407,
+      443.9697089837864,
+      839.2300419509411,
+      1153.0860829516314,
+      1326.722957950551,
+      769.2156250122935,
+      582.8373749973252,
+      492.66624997835606,
+      518.5061250231229,
+      554.0354590048082,
+      487.90504201315343,
+      528.5065410425887,
+      620.2121669775806,
+      679.1385420365259,
+      694.3702080170624,
+      663.7484999955632,
+      532.1771249873564,
+      1310.3314160252921,
+      2684.81604201952,
+      1925.6850840174593,
+      3130.819750018418,
+      2266.731208015699,
+      782.2812090162188,
+      733.4197080344893,
+      1732.3514170129783,
+      852.8046669671312,
+      861.1376250046305,
+      962.628917011898,
+      1282.1277079638094,
+      758.2560420269147,
+      708.1118749920279,
+      734.6401669783518,
+      699.7641249909066,
+      767.3034580075182,
+      1024.7614999534562,
+      590.5660829739645,
+      1326.8626250210218,
+      2106.9662920199335,
+      1406.9916669977829,
+      586.5622910205275,
+      674.7359589789994,
+      676.2734999647364,
+      1465.2515000198036,
+      650.9601249708794,
+      667.5884170108475,
+      1223.900875018444,
+      790.9362909849733,
+      765.0531249819323,
+      676.22470803326,
+      1658.2287079654634,
+      4528.542541025672,
+      3690.3270409675315,
+      861.2506249919534,
+      844.2422079970129,
+      867.7539170021191,
+      764.6350839640945,
+      611.0742089804262,
+      769.3677500355989,
+      1253.8072500028647,
+      2078.0709169921465,
+      711.3120410358533,
+      637.3261249973439,
+      527.975749981124,
+      548.9017079817131,
+      696.3840409880504,
+      765.0506250211038,
+      456.850582966581,
+      951.2455830117688,
+      498.0680829612538,
+      1743.5739169595763,
+      447.54908297909424,
+      623.5997499898076,
+      500.7767499773763,
+      712.6346250297502,
+      499.27129194838926,
+      578.2522909576073,
+      683.7434580083936,
+      1167.5569170038216,
+      418.43525000149384,
+      628.2787079690024,
+      360.43020902434364,
+      672.0060419756919,
+      507.2248749784194,
+      1044.379208004102,
+      823.4956249943934,
+      650.9489170275629,
+      516.8450420023873,
+      339.6981669939123,
+      307.0680000237189,
+      360.37633300293237,
+      1220.1435839524493,
+      732.2564159985632,
+      346.39416699064896,
+      281.83658298803493,
+      595.8163329632953,
+      794.3625419866294,
+      351.4037919812836,
+      546.8762499513105,
+      995.9279999602586,
+      505.0610409816727,
+      589.9044999969192,
+      380.9942500083707,
+      1012.1991250198334,
+      663.9254170004278,
+      826.6939999884926
+    ],
+    "rate_limit_headers": [
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2996",
+        "x-oc-used-weight": "4"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2999",
+        "x-oc-used-weight": "1"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2997",
+        "x-oc-used-weight": "3"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      },
+      {
+        "x-oc-ratelimit-limit": "3000",
+        "x-oc-ratelimit-remaining": "2998",
+        "x-oc-used-weight": "2"
+      }
+    ]
+  },
+  "read_only": true
+}

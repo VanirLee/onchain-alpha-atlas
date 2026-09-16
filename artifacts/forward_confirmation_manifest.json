@@ -1,0 +1,15 @@
+{
+  "dataset": "FORWARD_CONFIRMATION_DATASET",
+  "mode": "append-only read-only collection",
+  "started_at": "2026-09-16T16:52:41.636432+00:00",
+  "historical_data_role": "DISCOVERY",
+  "next_collection": "collect-token-trades with checkpointed per-token cursors",
+  "required_snapshots": [
+    "token trades",
+    "participant snapshots",
+    "holders",
+    "top traders",
+    "pool liquidity"
+  ],
+  "status": "INITIALIZED"
+}
