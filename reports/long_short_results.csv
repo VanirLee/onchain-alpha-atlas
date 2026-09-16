@@ -1,0 +1,2 @@
+mode,status,reason
+long_short,NOT_RUN,Long-short mode is implemented as an optional portfolio path but was not run in the executed research run.

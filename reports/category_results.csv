@@ -1,0 +1,2 @@
+status,reason
+NOT_RUN,"Market-cap, liquidity, token-age, and volatility bucket labels were not fully available for the historical candle panel."

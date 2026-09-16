@@ -1,0 +1,4 @@
+x,y,lag_hours,n_observations,correlation,correlation_p_value,beta,HAC_t_stat,HAC_p_value,HAC_lag,status,interpretation
+volume,price,1,931,-0.01334208574789612,0.6843247194002267,-1409.0899742360907,-1.0135239121694708,0.31080998039171404,1,EXPLORATORY,"predictive association, not causal"
+volume,price,4,920,-0.013172728463030045,0.6898764455991716,-1412.1437326639855,-1.0143099866611966,0.31043486022506084,4,EXPLORATORY,"predictive association, not causal"
+volume,price,24,856,-0.013125185311260423,0.701374872325819,-1484.5031054900876,-1.0161105851263184,0.30957672897623234,24,EXPLORATORY,"predictive association, not causal"

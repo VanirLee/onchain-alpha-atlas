@@ -1,0 +1,6 @@
+factor,horizon,cost_bps,mode,turnover,n_rebalances,accounting_method,status
+momentum_1h,24,5,long_only,1.1809523809523808,5,non_overlapping_rebalance,computed
+momentum_1h,24,10,long_only,1.1809523809523808,5,non_overlapping_rebalance,computed
+momentum_1h,24,25,long_only,1.1809523809523808,5,non_overlapping_rebalance,computed
+momentum_1h,24,50,long_only,1.1809523809523808,5,non_overlapping_rebalance,computed
+momentum_1h,24,100,long_only,1.1809523809523808,5,non_overlapping_rebalance,computed

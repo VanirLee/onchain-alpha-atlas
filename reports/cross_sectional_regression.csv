@@ -1,0 +1,21 @@
+factor,horizon,status,n
+momentum_1h,24,insufficient evidence,0
+momentum_4h,24,insufficient evidence,0
+momentum_24h,24,insufficient evidence,0
+momentum_7d,24,insufficient evidence,0
+reversal_1h,24,insufficient evidence,0
+realized_vol_24h,24,insufficient evidence,0
+volume_momentum,24,insufficient evidence,0
+volume_surprise,24,insufficient evidence,0
+liquidity_mcap,24,insufficient evidence,0
+turnover,24,insufficient evidence,0
+volume_liquidity,24,insufficient evidence,0
+amihud_illiquidity,24,insufficient evidence,0
+liquidity_growth,24,insufficient evidence,0
+liquidity_shock,24,insufficient evidence,0
+buy_sell_imbalance,24,insufficient evidence,0
+smart_money_flow_intensity,24,insufficient evidence,0
+smart_money_crowding,24,insufficient evidence,0
+signal_count,24,insufficient evidence,0
+signal_breadth,24,insufficient evidence,0
+holder_growth,24,insufficient evidence,0

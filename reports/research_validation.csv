@@ -1,0 +1,12 @@
+check,status
+canonical_dim_asset,PASS
+canonical_fact_token_market_state,PASS
+artifact_research_agenda,PASS
+artifact_hypothesis_results,PASS
+artifact_experiment_registry,PASS
+artifact_falsification_results,PASS
+artifact_research_coverage,PASS
+artifact_state_results,PASS
+artifact_relative_value_results,PASS
+artifact_network_results,PASS
+artifact_API_RUN_STATS,PASS

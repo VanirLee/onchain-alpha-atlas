@@ -1,0 +1,7 @@
+path,status
+/Users/vanirli/Desktop/加密市场套利/onchain-alpha-atlas/artifacts/LOCAL_DATA_CATALOG.parquet,PASS
+/Users/vanirli/Desktop/加密市场套利/onchain-alpha-atlas/artifacts/ACQUISITION_PLAN.parquet,PASS
+/Users/vanirli/Desktop/加密市场套利/onchain-alpha-atlas/data/gold/identity/asset_identity.parquet,PASS
+/Users/vanirli/Desktop/加密市场套利/onchain-alpha-atlas/artifacts/SYNC_QUALITY.parquet,PASS
+/Users/vanirli/Desktop/加密市场套利/onchain-alpha-atlas/data/gold/synchronized/cross_venue_5m.parquet,PASS
+/Users/vanirli/Desktop/加密市场套利/onchain-alpha-atlas/data/gold/synchronized/cross_venue_1h.parquet,PASS

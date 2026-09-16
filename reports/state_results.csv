@@ -1,0 +1,10 @@
+hypothesis_id,horizon,state_variable,state_bucket,n_events,mean_return,median_return,hit_rate,independent_event_episodes,status,interpretation
+H004,1,liquidity_state,LOW,577,-0.0016654509288681807,-0.00010549946487248274,0.462738301559792,577,EXPLORATORY,conditional association; not causal
+H004,1,volatility_state,HIGH,420,-0.0024186847766231394,-0.0010482667378677313,0.45714285714285713,420,EXPLORATORY,conditional association; not causal
+H004,1,volatility_state,LOW,157,0.00034956955557183554,-2.6514285579648522e-05,0.47770700636942676,157,EXPLORATORY,conditional association; not causal
+H004,4,liquidity_state,LOW,561,-0.005972229836305077,-0.0009526016035543705,0.40106951871657753,561,EXPLORATORY,conditional association; not causal
+H004,4,volatility_state,HIGH,408,-0.0073440069722494955,-0.0030316211125428483,0.4215686274509804,408,EXPLORATORY,conditional association; not causal
+H004,4,volatility_state,LOW,153,-0.002314157473786625,-0.00024756889489252476,0.3464052287581699,153,EXPLORATORY,conditional association; not causal
+H004,24,liquidity_state,LOW,421,-0.0380023537730786,-0.024725932586598942,0.3159144893111639,421,EXPLORATORY,conditional association; not causal
+H004,24,volatility_state,HIGH,315,-0.04175607285845861,-0.0358147100032673,0.33650793650793653,315,EXPLORATORY,conditional association; not causal
+H004,24,volatility_state,LOW,106,-0.02684743384954367,-0.017281972937914114,0.25471698113207547,106,EXPLORATORY,conditional association; not causal
