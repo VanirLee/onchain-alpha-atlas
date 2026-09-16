@@ -1,0 +1,17 @@
+id: H001
+family: event_response
+title: Volume shocks and subsequent token-market response
+research_question: Does an unusually large token volume observation precede measurable price, volume, and liquidity response?
+economic_mechanism: A flow shock may reveal attention or inventory rebalancing before the full price response.
+economic_primitives: [flow, information, liquidity, volatility_risk]
+entity_scope: token-market-state
+data_dependencies: [fact_token_market_state, events]
+research_methods: [generic_event_study, bootstrap, overlap_diagnostics]
+prediction_horizons: [1h, 4h, 24h]
+expected_direction: exploratory
+classification: EXPLORATORY
+status: NOT_RUN
+parameters:
+  detector: volume_shock
+  z_threshold: 2.0
+  min_history: 12

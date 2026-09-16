@@ -1,0 +1,17 @@
+id: H002
+family: information_transmission
+title: Aggregate volume lead-lag to token returns
+research_question: Does current chain-level token volume predict later aggregate token returns?
+economic_mechanism: Trading activity can transmit attention or inventory information before price adjustment.
+economic_primitives: [flow, information, diffusion]
+entity_scope: chain-token aggregate
+data_dependencies: [fact_token_market_state]
+research_methods: [cross_correlation, distributed_lag_regression, HAC]
+prediction_horizons: [1h, 4h, 24h]
+expected_direction: exploratory
+classification: EXPLORATORY
+status: NOT_RUN
+parameters:
+  x: volume
+  y: price
+  lags: [1, 4, 24]

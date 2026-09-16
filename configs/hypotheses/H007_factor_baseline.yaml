@@ -1,0 +1,15 @@
+id: H007
+family: factor_baseline
+title: Corrected factor panel as a benchmark family
+research_question: What structure is visible under the corrected factor baseline, and does it survive time and chain splits?
+economic_mechanism: Price, liquidity, flow, and attention proxies provide a benchmark for non-factor information mechanisms.
+economic_primitives: [information, liquidity, volatility_risk, regime]
+entity_scope: token-market-state
+data_dependencies: [factor_panel, labels]
+research_methods: [rank_ic, HAC, BH_FDR, purged_OOS, leave_one_chain_out]
+prediction_horizons: [1h, 4h, 24h]
+expected_direction: exploratory
+classification: BASELINE
+status: NOT_RUN
+parameters:
+  factors: baseline_factor_list

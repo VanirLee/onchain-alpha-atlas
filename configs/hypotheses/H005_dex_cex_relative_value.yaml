@@ -1,0 +1,15 @@
+id: H005
+family: relative_value_price_discovery
+title: DEX-CEX price discovery and convergence
+research_question: Does a DEX-CEX price discrepancy predict subsequent convergence after executable costs?
+economic_mechanism: Cross-venue inventory and arbitrage activity can transmit information between fragmented markets.
+economic_primitives: [relative_value, price_discovery, execution]
+entity_scope: asset-venue
+data_dependencies: [fact_token_market_state, cex_spot, cex_perpetual, executable_depth]
+research_methods: [basis, lead_lag, cost_sensitivity, OOS]
+prediction_horizons: [1m, 5m, 1h]
+expected_direction: convergence
+classification: PRE_SPECIFIED
+status: BLOCKED_BY_DATA
+parameters:
+  required_status: CAPACITY_NOT_ESTIMATED_without_executable_depth

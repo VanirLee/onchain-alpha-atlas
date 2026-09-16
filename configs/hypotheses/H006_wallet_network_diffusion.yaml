@@ -1,0 +1,15 @@
+id: H006
+family: network_diffusion
+title: Wallet-token information diffusion
+research_question: Does coordinated wallet adoption precede broader token adoption and price response?
+economic_mechanism: Common wallet activity can transmit information through co-trading and attention networks.
+economic_primitives: [diffusion, flow, crowding, information]
+entity_scope: wallet-token
+data_dependencies: [fact_dex_trade, fact_wallet_state, temporal_graph]
+research_methods: [asof_graph, diffusion, placebo, chain_split]
+prediction_horizons: [1h, 4h, 24h]
+expected_direction: exploratory
+classification: PRE_SPECIFIED
+status: BLOCKED_BY_DATA
+parameters:
+  minimum_wallets: 300

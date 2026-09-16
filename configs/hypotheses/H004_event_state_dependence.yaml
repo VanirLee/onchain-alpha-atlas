@@ -1,0 +1,16 @@
+id: H004
+family: market_state_dependence
+title: Volume-shock response conditional on liquidity and volatility state
+research_question: Does the response to the same observable volume shock differ across pre-event liquidity and volatility states?
+economic_mechanism: Information is more difficult to absorb when liquidity is thin and risk-bearing capacity is constrained.
+economic_primitives: [information, liquidity, volatility_risk, regime]
+entity_scope: token-market-state
+data_dependencies: [fact_token_market_state, events]
+research_methods: [conditional_event_study, state_split, exact_timestamp_matching]
+prediction_horizons: [1h, 4h, 24h]
+expected_direction: stronger_response_in_high_volatility_or_low_liquidity
+classification: EXPLORATORY
+status: NOT_RUN
+parameters:
+  state_variables: [liquidity_state, volatility_state]
+  detector_threshold_grid: [90, 95, 97.5, 99]

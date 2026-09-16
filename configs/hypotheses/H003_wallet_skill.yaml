@@ -1,0 +1,15 @@
+id: H003
+family: entity_information_advantage
+title: Historical wallet skill persistence
+research_question: Does pre-measurement wallet skill predict future wallet outcomes?
+economic_mechanism: Persistent execution or information advantage may appear in closed-trade history.
+economic_primitives: [information, flow, inventory]
+entity_scope: wallet
+data_dependencies: [fact_dex_trade, fact_wallet_state]
+research_methods: [pit_skill_history, shrinkage, persistence_test]
+prediction_horizons: [future measurement periods]
+expected_direction: exploratory
+classification: PRE_SPECIFIED
+status: BLOCKED_BY_DATA
+parameters:
+  min_trades: 5
