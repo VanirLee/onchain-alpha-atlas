@@ -1,0 +1,10 @@
+# Non-secret configuration example. Credentials stay in environment/local .env.
+base_url: https://web3.binance.com/build
+qps_target: 40
+max_concurrency: 8
+timeout_seconds: 20
+sample_tokens: 120
+candle_bar: 1h
+candle_limit: 96
+chains: ["1", "56", "8453", "CT_501"]
+read_only: true
